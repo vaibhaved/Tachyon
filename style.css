@@ -4235,6 +4235,7 @@ nav.bottom-nav ul li a {
 }
 #bottom-footer .social-link {
 	text-align: center;
+	padding-left: 0px;
 }
 #bottom-footer .social-link li {
 	display: inline-block;
