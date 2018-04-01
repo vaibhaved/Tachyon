@@ -3,6 +3,7 @@
 	padding-top: 342px;
 	padding-bottom: 250px;
 	position: relative;
+	display: block;
 }
 .s-title {
 	margin-top: -300px;
