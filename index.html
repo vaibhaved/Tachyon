@@ -15,6 +15,7 @@
 <link href="css/animate.css" rel="stylesheet" media="screen">
 <link rel="stylesheet" type="text/css"  href="style.css">
 <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/sponsors.css">
 </head>
 
 <body>
@@ -57,6 +58,25 @@
   </div>
 </section>
 
+<section id="sponsors-block">
+  <div class="container">
+    <div class="row">
+      <div class="sponsors-title text-center wow fadeInUp">
+        <h2>Sponsors</h2>
+      </div>
+      <div id="wrapper">
+        <div id="carousel">
+          <img src="img/1.jpg" width="250" height="250" />
+          <img src="img/2.jpg" width="250" height="250" />
+          <img src="img/3.jpg" width="250" height="250" />
+          <img src="img/4.jpg" width="250" height="250" />
+          <img src="img/5.jpg" width="250" height="250" />
+        </div>
+      </div>
+      <div id="pager"></div>
+    </div>
+  </div>
+</section>
 
 <section id="home-contact-block">
   <div class="container">
@@ -363,5 +383,23 @@
 <script>
 new WOW().init();
 </script>
+    <script src="jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('#carousel').carouFredSel({
+          direction: 'up',
+          items: 1,
+          scroll: {
+            fx: 'directscroll'
+          },
+          pagination: {
+            container: '#pager',
+            anchorBuilder: function( nr ) {
+              return '<a href="#" class="thumb' + nr + '"><img src="' + this.src + '" width="50" /></a>';
+            }
+          }
+        });
+      });
+    </script>
 </body>
 </html>
