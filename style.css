@@ -4572,6 +4572,7 @@ time.updated{
 }
 
 .dialog {
+	z-index: 999;
 	position: fixed;
 	display: flex;
 	align-items: center;
