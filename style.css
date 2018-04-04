@@ -4560,7 +4560,6 @@ ul.about-features li i {
  @media (max-width: 360px) {
 }
 
-/*edited file*/
 time.updated{
     display: none;
 }
@@ -4599,13 +4598,15 @@ time.updated{
 }
 
 .dialog__content {
-	background-image: url("img.png");
-	width: 50%;
-	max-width: 560px;
-	min-width: 290px;
-	padding: 4em;
-	text-align: center;
-	position: relative;
+	background: url("contact.png") no-repeat;
+	display: block;
+	margin-left: -200px;
+	margin-top: -150px;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 50%;
+	position: absolute;
 	z-index: 5;
 	opacity: 0;
 }
@@ -4613,15 +4614,6 @@ time.updated{
 .dialog--open .dialog__content {
 	pointer-events: auto;
 }
-
-.dialog h2 {
-	margin: 0;
-	font-weight: 400;
-	font-size: 2em;
-	padding: 0 0 2em;
-	margin: 0;
-}
-
 
 .dialog.dialog--open .dialog__content,
 .dialog.dialog--close .dialog__content {
@@ -4666,4 +4658,39 @@ time.updated{
 @keyframes anim-close {
 	0% { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 	100% { -webkit-transform: translate3d(calc(50vw + 50%), 0, 0); transform: translate3d(calc(50vw + 50%), 0, 0); }
+}
+#developers-block { 
+	color: #f6be00;
+	background: #424a59;
+	padding: 80px 0;
+}
+#developers {
+	padding: 30px 0;
+}
+#developers .dev1 {
+	display: inline-block;
+	padding: 0px 30px 0px 50px;
+}
+#developers .dev1 img {
+	width: 184px;
+	height: 184px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+}
+#developers .dev1 p strong {
+	font-size: 19px;
+	color: #f0f0f0;
+	font-style: normal;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	display: block;
+}
+#developers .dev1 p {
+	font-weight: 400;
+	margin: 10px 0;
+	color: #bcb8b8;
+	font-style: italic;
+	font-family: 'PT Serif', serif;
+	font-size: 17px;
 }
