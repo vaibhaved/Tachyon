@@ -19,14 +19,27 @@
 }
 #wrapper {
 	border: 10px solid #eee;
-	margin: -150px 0 0 -120px;
+	margin: -110px 0 0 -120px;
 	z-index: 2;
 }
 #carousel img {
 	display: block;
 	float: left;
+	cursor: pointer;
+	margin-top: -3px;
+	margin-left: -3px; 
+	border-radius: 50%;
 }
+#sponsors-tag h3 {
+	overflow: hidden;
+	color: #56585b;
+	display: block;
+	text-align: center;
 
+	-webkit-transition: margin 0.5s ease;
+	-moz-transition: margin 0.5s ease;
+	transition: margin 0.5s ease;
+}
 #pager {
 	width: 300px;
 	margin: -30px 0 0 -142.5px;
@@ -45,46 +58,25 @@
 	margin: 0 0 0 -30px;
 	position: absolute;
 	left: 50%;
-	
+	background-color: #eee;
+
 	-webkit-transition: margin 0.5s ease;
 	-moz-transition: margin 0.5s ease;
 	transition: margin 0.5s ease;
 }
 #pager a.thumb1 {
-	top: 45px;
-	margin-left: -150px;
+	top: 130px;
+	margin-left: 45px;
 }
 #pager a.thumb1.selected {
-	margin-top: -20px;
-	margin-left: -115px;
+	margin-top: -75px;
+	margin-left: -85px;
 }
 #pager a.thumb2 {
-	top: 90px;
+	top: 130px;
 	margin-left: -98px;
 }
 #pager a.thumb2.selected {
-	margin-top: -35px;
+	margin-top: -75px;
 	margin-left: -85px;
-}
-#pager a.thumb3 {
-	top: 110px;
-}
-#pager a.thumb3.selected {
-	margin-top: -40px;
-}
-#pager a.thumb4 {
-	top: 90px;
-	margin-left: 38px;
-}
-#pager a.thumb4.selected {
-	margin-top: -35px;
-	margin-left: 25px;
-}
-#pager a.thumb5 {
-	top: 45px;
-	margin-left: 90px;
-}
-#pager a.thumb5.selected {
-	margin-top: -20px;
-	margin-left: 55px;
 }

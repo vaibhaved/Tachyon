@@ -59,25 +59,26 @@
 </section>
 
 <section id="s-block">
-  <div class="container">
+	<div class="container">
     <div class="row">
 	    <div>
-      <div class="s-title text-center wow fadeInUp">
-        <h2>Sponsors</h2>
-      </div>
-      <div id="wrapper">
-        <div id="carousel">
-          <img src="img/1.jpg" width="250" height="250" />
-          <img src="img/2.jpg" width="250" height="250" />
-          <img src="img/3.jpg" width="250" height="250" />
-          <img src="img/4.jpg" width="250" height="250" />
-          <img src="img/5.jpg" width="250" height="250" />
+    		<div class="s-title text-center wow fadeInUp">
+      		<h2>Sponsors</h2>
+    		</div>
+        <div id="sponsors-tag" class="text-center">
+          <h3>Media Partner</h3>
+          <h3>Knowledge And Mentoring Partner</h3>
         </div>
-      </div>
-      <div id="pager"></div>
+    		<div id="wrapper">
+      		<div id="carousel">
+              <img id="hellointern" src="img/sponsors/hi.jpg" alt="Hello Intern" width="250" height="250" />
+        			<img id="ioe" src="img/sponsors/ioe.jpg" alt="Institute of Entrepreneurship" width="250" height="250" />
+      		</div>
+    		</div>
+    		<div id="pager"></div>
 	    </div>
     </div>
-  </div>
+	</div>
 </section>
 
 <section id="home-contact-block">
@@ -463,6 +464,25 @@ new WOW().init();
     });
   });
 </script>
+<script type="text/javascript">
+  $("#hellointern").click(function() {
+  window.open('http://www.hellointern.com','_blank')
+  });
+  $("#ioe").click(function() {
+  window.open('http://www.ioentrepreneurship.com', '_blank')
+  });
+</script>
+<script type="text/javascript">
+  $(function() {
+    $('#sponsors-tag').carouFredSel({
+      direction: 'up',
+      items: 1,
+      scroll: {
+        fx: 'directscroll'
+      }
+    });
+  });
+</script>  
 <script src="js/modernizr.custom.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/dialogFx.js"></script>
