@@ -16,9 +16,30 @@
 <link rel="stylesheet" type="text/css"  href="style.css">
 <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="css/sponsors.css">
+<link rel="stylesheet" href="css/loader.css">
+<style type="text/css">
+  .preloader {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999; 
+  }
+</style>
 </head>
 
 <body>
+  <div class="preloader">
+    <div class="e-loadholder">
+      <div class="m-loader">
+        <span class="e-text">Loading</span>
+      </div>
+    </div>
+    <div id="particleCanvas-Blue"></div>
+    <div id="particleCanvas-White"></div>
+  </div>
 <nav id="top-menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container"> 
     <div class="navbar-header">
@@ -502,6 +523,13 @@ new WOW().init();
 	} );
 	dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
 })();
+</script>
+<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>  
+<script src="js/loader.js"></script>
+<script type="text/javascript">
+  $(window).load(function() {
+      $(".preloader" ).fadeOut("slow")
+  });
 </script>
 </body>
 </html>
