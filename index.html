@@ -528,7 +528,9 @@ new WOW().init();
 <script src="js/loader.js"></script>
 <script type="text/javascript">
   $(window).load(function() {
-      $(".preloader" ).fadeOut("slow")
+   	setTimeout(function() {
+   	  $(".preloader").fadeOut("slow")
+    },5000)
   });
 </script>
 </body>
