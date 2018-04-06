@@ -2,9 +2,6 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	color: #404040;
 }
-body {
-	overflow: hidden;
-}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 	margin: 15px 0 25px;
