@@ -4610,20 +4610,6 @@ time.updated{
 	opacity: 0;
 }
 
-@media only screen and (min-width: 720px) {
-	.dialog__content {
-		background: url("img/team/contact.jpg") no-repeat;
-		display: block;
-		margin-left: auto;
-		text-align: center;
-		background-size: cover;
-		width: 50%;
-		height: 50%;
-		position: absolute;
-		z-index: 5;
-		opacity: 0;
-	}
-}
 #home-contact-block a {
 	cursor: pointer;
 }
