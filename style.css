@@ -4601,11 +4601,12 @@ time.updated{
 	background: url("img/team/contact1.jpg") no-repeat;
 	display: block;
 	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	background-size: cover;
 	width: 400px;
 	height: 50%;
-	position: absolute;
+	position: relative;
 	z-index: 5;
 	opacity: 0;
 }
@@ -4615,11 +4616,12 @@ time.updated{
 		background: url("img/team/contact.jpg") no-repeat;
 		display: block;
 		margin-left: auto;
+		margin-right: auto;
 		text-align: center;
 		background-size: cover;
 		width: 50%;
 		height: 50%;
-		position: absolute;
+		position: relative;
 		z-index: 5;
 		opacity: 0;
 	}
