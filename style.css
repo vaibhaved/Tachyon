@@ -4600,8 +4600,8 @@ time.updated{
 .dialog__content {
 	background: url("img/team/contact1.jpg") no-repeat;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 	text-align: center;
 	background-size: contain;
 	width: 400px;
