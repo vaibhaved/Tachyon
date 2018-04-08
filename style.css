@@ -2804,7 +2804,7 @@ ul.about-features li:hover i {
 }
 #process-block .process-img img {
 	width: 100%;
-	object-fit: cover;
+	object-fit: fill;
 	overflow: hidden;
 	max-width: 360px;
 	margin:0 auto;
@@ -4598,26 +4598,26 @@ time.updated{
 }
 
 .dialog__content {
-	background: url("img/team/contact.jpg") no-repeat;
+	background: url("img/team/contact1.jpg") no-repeat;
 	display: block;
 	margin-left: auto;
 	text-align: center;
 	background-size: cover;
-	width: 50%;
+	width: 400px;
 	height: 50%;
 	position: absolute;
 	z-index: 5;
 	opacity: 0;
 }
 
-@media only screen and (max-width: 719px) {
+@media only screen and (min-width: 720px) {
 		.dialog__content {
-		background: url("img/team/contact1.jpg") no-repeat;
+		background: url("img/team/contact.jpg") no-repeat;
 		display: block;
 		margin-left: auto;
 		text-align: center;
 		background-size: cover;
-		width: 400px;
+		width: 50%;
 		height: 50%;
 		position: absolute;
 		z-index: 5;
