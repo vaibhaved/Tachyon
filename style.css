@@ -4603,7 +4603,7 @@ time.updated{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-size: cover;
+	background-size: contain;
 	width: 400px;
 	height: 50%;
 	position: relative;
