@@ -73,10 +73,18 @@
 	margin-left: -85px;
 }
 #pager a.thumb2 {
-	top: 130px;
-	margin-left: -98px;
+	top: 150px;
+	margin-left: -25px;
 }
 #pager a.thumb2.selected {
 	margin-top: -75px;
-	margin-left: -85px;
+	margin-left: -25px;
+}
+#pager a.thumb3 {
+	top: 130px;
+	margin-left: -98px;
+}
+#pager a.thumb3.selected {
+	margin-top: -75px;
+	margin-left: -5px;
 }
