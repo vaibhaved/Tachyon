@@ -18,8 +18,9 @@
 	left: 50%;
 }
 #wrapper {
+	background-color: #ccb;
 	border: 10px solid #eee;
-	margin: -110px 0 0 -120px;
+	margin: -90px 0 0 -120px;
 	z-index: 2;
 }
 #carousel img {
@@ -34,6 +35,7 @@
 	overflow: hidden;
 	color: #56585b;
 	display: block;
+	line-height: 3em;
 	text-align: center;
 
 	-webkit-transition: margin 0.5s ease;
@@ -65,26 +67,50 @@
 	transition: margin 0.5s ease;
 }
 #pager a.thumb1 {
-	top: 130px;
-	margin-left: 45px;
+	top: 80px;
+	margin-left: -160px;
 }
 #pager a.thumb1.selected {
-	margin-top: -75px;
+	margin-top: -30px;
 	margin-left: -85px;
 }
 #pager a.thumb2 {
-	top: 150px;
-	margin-left: -25px;
+	top: 138px;
+	margin-left: -128px;
 }
 #pager a.thumb2.selected {
 	margin-top: -75px;
 	margin-left: -25px;
 }
 #pager a.thumb3 {
-	top: 130px;
-	margin-left: -98px;
+	top: 170px;
+	margin-left: -63px;
 }
 #pager a.thumb3.selected {
 	margin-top: -75px;
 	margin-left: -5px;
+}
+#pager a.thumb4 {
+	top: 170px;
+	margin-left: 10px;
+}
+#pager a.thumb4.selected {
+	margin-top: -75px;
+	margin-left: -5px;
+}
+#pager a.thumb5 {
+	top: 138px;
+	margin-left: 72px;
+}
+#pager a.thumb5.selected {
+	margin-top: -75px;
+	margin-left: -25px;
+}
+#pager a.thumb6 {
+	top: 80px;
+	margin-left: 105px;
+}
+#pager a.thumb6.selected {
+	margin-top: -30px;
+	margin-left: -85px;
 }
