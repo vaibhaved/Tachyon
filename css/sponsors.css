@@ -1,5 +1,5 @@
 #s-block {
-	background: #ccb;
+	background: #2c3e5b;
 	padding-top: 342px;
 	padding-bottom: 250px;
 	position: relative;
@@ -7,6 +7,7 @@
 }
 .s-title {
 	margin-top: -300px;
+	color: white;
 }
 #wrapper {
 	border-radius: 200px;
@@ -19,7 +20,7 @@
 }
 #wrapper {
 	background-color: #ccb;
-	border: 10px solid #eee;
+	border: 10px solid #ccb;
 	margin: -90px 0 0 -120px;
 	z-index: 2;
 }
@@ -33,9 +34,10 @@
 }
 #sponsors-tag h3 {
 	overflow: hidden;
-	color: #56585b;
+	color: #ccb;
 	display: block;
-	line-height: 3em;
+	height: 40px;
+	line-height: 2em;
 	text-align: center;
 
 	-webkit-transition: margin 0.5s ease;
@@ -112,5 +114,53 @@
 }
 #pager a.thumb6.selected {
 	margin-top: -30px;
+	margin-left: -85px;
+}
+#pager a.thumb7 {
+	top: 15px;
+	margin-left: 105px;
+}
+#pager a.thumb7.selected {
+	margin-top: 10px;
+	margin-left: -85px;
+}
+#pager a.thumb8 {
+	top: -50px;
+	margin-left: 75px;
+}
+#pager a.thumb8.selected {
+	margin-top: 30px;
+	margin-left: -25px;
+}
+#pager a.thumb9 {
+	top: -90px;
+	margin-left: 10px;
+}
+#pager a.thumb9.selected {
+	margin-top: 50px;
+	margin-left: 5px;
+}
+#pager a.thumb10 {
+	top: -90px;
+	margin-left: -63px;
+}
+#pager a.thumb10.selected {
+	margin-top: 50px;
+	margin-left: -35px;
+}
+#pager a.thumb11 {
+	top: -50px;
+	margin-left: -132px;
+}
+#pager a.thumb11.selected {
+	margin-top: 30px;
+	margin-left: -85px;
+}
+#pager a.thumb12 {
+	top: 15px;
+	margin-left: -160px;
+}
+#pager a.thumb12.selected {
+	margin-top: 10px;
 	margin-left: -85px;
 }
